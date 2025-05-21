@@ -19,4 +19,4 @@ jobs:
 
             - name: Run PHP-CS-Fixer dry run
               run: |
-                  php-cs-fixer fix --dry-run -v --diff
+                  vendor/bin/php-cs-fixer fix --dry-run -v --diff
